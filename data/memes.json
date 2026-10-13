@@ -1,0 +1,203 @@
+[
+  {
+    "id": "purse-motivation",
+    "scenario": "The purse is mine, judge kept the purse on the desk",
+    "tags": [
+      "purse",
+      "mine",
+      "judge",
+      "desk",
+      "prize",
+      "motivation",
+      "wallet"
+    ],
+    "template": "The Purse Is Mine",
+    "image": "/templates/purse-judge.png",
+    "layout": "tb",
+    "top": "Eyes on the purse",
+    "bottom": "That purse is MINE 😤",
+    "likes": 15
+  },
+  {
+    "id": "purse-happy",
+    "scenario": "I got the purse, we won the prize",
+    "tags": [
+      "purse",
+      "got",
+      "won",
+      "win",
+      "happy",
+      "prize",
+      "wallet"
+    ],
+    "template": "The Purse Is Mine",
+    "image": "/templates/purse-judge.png",
+    "layout": "tb",
+    "top": "When the judge finally says",
+    "bottom": "\"The purse is yours\" 🥹",
+    "likes": 11
+  },
+  {
+    "id": "purse-sad",
+    "scenario": "I lost the purse, we lost the hackathon",
+    "tags": [
+      "purse",
+      "lost",
+      "lose",
+      "sad",
+      "prize",
+      "wallet"
+    ],
+    "template": "The Purse Is Mine",
+    "image": "/templates/purse-judge.png",
+    "layout": "tb",
+    "top": "Me watching my purse",
+    "bottom": "walk away with someone else 💔",
+    "likes": 10
+  },
+  {
+    "id": "astraalis-best",
+    "scenario": "Which is the best company",
+    "tags": [
+      "best",
+      "company",
+      "astraalis",
+      "top",
+      "dream",
+      "ai"
+    ],
+    "template": "Astraalis Best Company",
+    "image": "/templates/astraalis-logo.png",
+    "layout": "band",
+    "top": "Which is the best company?",
+    "bottom": "",
+    "likes": 14
+  },
+  {
+    "id": "astraalis-placed",
+    "scenario": "I got placed in Astraalis",
+    "tags": [
+      "placed",
+      "placement",
+      "astraalis",
+      "selected",
+      "offer",
+      "hired",
+      "job"
+    ],
+    "template": "Astraalis Got Placed",
+    "image": "/templates/astraalis-thankyou.png",
+    "layout": "band",
+    "top": "Me after getting placed in Astraalis AI",
+    "bottom": "",
+    "likes": 13
+  },
+  {
+    "id": "astraalis-walkin",
+    "scenario": "I need an interview or a job",
+    "tags": [
+      "need",
+      "interview",
+      "job",
+      "walk",
+      "drive",
+      "hiring",
+      "career",
+      "fresher"
+    ],
+    "template": "Astraalis Walk-in Drive",
+    "image": "/templates/astraalis-walkin.png",
+    "layout": "band",
+    "top": "Me: I need a job\nThe universe:",
+    "bottom": "",
+    "likes": 12
+  },
+  {
+    "id": "seed2",
+    "scenario": "Hackathon with only one hour to build an app",
+    "tags": [
+      "hackathon",
+      "hour",
+      "build",
+      "app",
+      "deadline",
+      "code"
+    ],
+    "template": "This Is Fine",
+    "image": "https://i.imgflip.com/wxica.jpg",
+    "layout": "tb",
+    "top": "59 minutes left, 0 features working",
+    "bottom": "This is fine",
+    "likes": 9
+  },
+  {
+    "id": "seed3",
+    "scenario": "Choosing between sleeping and studying before exam",
+    "tags": [
+      "exam",
+      "study",
+      "sleep",
+      "night",
+      "choose"
+    ],
+    "template": "Two Buttons",
+    "image": "https://i.imgflip.com/1g8my4.jpg",
+    "layout": "tb",
+    "top": "Sleep 8 hours | Study all night",
+    "bottom": "Me at 3am scrolling memes",
+    "likes": 7
+  },
+  {
+    "id": "seed4",
+    "scenario": "Code works on my laptop but not in the demo",
+    "tags": [
+      "code",
+      "laptop",
+      "demo",
+      "bug",
+      "works",
+      "crash"
+    ],
+    "template": "Drake Hotline Bling",
+    "image": "https://i.imgflip.com/30b1gx.jpg",
+    "layout": "drake",
+    "top": "Testing before the demo",
+    "bottom": "\"It works on my laptop\"",
+    "likes": 8
+  },
+  {
+    "id": "seed5",
+    "scenario": "Boss calls a meeting at 5pm on Friday",
+    "tags": [
+      "boss",
+      "meeting",
+      "friday",
+      "office",
+      "work",
+      "manager"
+    ],
+    "template": "Woman Yelling At Cat",
+    "image": "https://i.imgflip.com/345v97.jpg",
+    "layout": "tb",
+    "top": "Boss: quick meeting at 5pm Friday",
+    "bottom": "Me who already left mentally",
+    "likes": 6
+  },
+  {
+    "id": "seed6",
+    "scenario": "Saw free pizza while working on the project",
+    "tags": [
+      "pizza",
+      "food",
+      "free",
+      "project",
+      "distracted"
+    ],
+    "template": "Distracted Boyfriend",
+    "image": "https://i.imgflip.com/1ur9b0.jpg",
+    "layout": "tb",
+    "top": "Me | free pizza | my project",
+    "bottom": "Priorities sorted",
+    "likes": 5
+  }
+]

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MemeForge — AI Meme Generator</title>
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow iris"></div><div class="glow sky"></div><div class="glow rose"></div>
+
+  <!-- ===== SCREEN 1: LANDING ===== -->
+  <section id="landing" class="view active">
+    <div class="arc"></div>
+    <nav class="nav">
+      <div class="logo">memeforge<span>.</span></div>
+      <div class="links"><a href="#" data-go="gen">Generator</a><a href="#" data-go="fame">Hall of Fame</a></div>
+    </nav>
+
+    <h1 class="hero">Ready to<br>meme?</h1>
+    <p class="tagline"><i></i>Describe any situation. We find the meme that already exists — or make a brand new one.</p>
+
+    <div class="setup glass">
+      <div class="group">
+        <label>Pick a mood</label>
+        <div class="chips" data-set="mood">
+          <button class="chip on" data-v="savage">Savage</button>
+          <button class="chip" data-v="funny">Funny</button>
+          <button class="chip" data-v="happy">Happy</button>
+          <button class="chip" data-v="sad">Sad but funny</button>
+          <button class="chip" data-v="motivation">Motivation</button>
+        </div>
+      </div>
+      <div class="group">
+        <label>Language</label>
+        <div class="seg" data-set="language">
+          <button class="on" data-v="English">English</button>
+          <button data-v="Tanglish">Tanglish</button>
+          <button data-v="Tamil">தமிழ்</button>
+          <button data-v="Hinglish">Hinglish</button>
+        </div>
+      </div>
+      <button class="cta" data-go="gen">Let's meme <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- ===== SCREEN 2: GENERATOR ===== -->
+  <section id="gen" class="view">
+    <div class="phone">
+      <header class="gen-head">
+        <button class="back" data-go="landing" aria-label="Back">←</button>
+        <h2>AI Meme<br>Generator<span>✦</span></h2>
+      </header>
+
+      <div id="status" class="status"></div>
+      <div id="results" class="results">
+        <div class="empty">
+          <p>Try one:</p>
+          <button class="example">The purse is mine</button>
+          <button class="example">I lost the purse</button>
+          <button class="example">Which is the best company?</button>
+          <button class="example">I got placed in Astraalis</button>
+          <button class="example">I need an interview or a job</button>
+        </div>
+      </div>
+
+      <h3 id="trendTitle" class="fame-title" hidden>🇮🇳 Trending Indian memes</h3>
+      <div id="trendGrid" class="fame"></div>
+
+      <h3 id="fame" class="fame-title">Hall of Fame</h3>
+      <div id="fameGrid" class="fame"></div>
+
+      <div class="sheet glass">
+        <div class="chips small" data-set="mood">
+          <button class="chip on" data-v="savage">Savage</button>
+          <button class="chip" data-v="happy">Happy</button>
+          <button class="chip" data-v="sad">Sad</button>
+          <button class="chip" data-v="motivation">Motivation</button>
+        </div>
+        <div id="imgPreview" class="img-preview" hidden><img alt="" /><button aria-label="Remove image">×</button></div>
+        <form id="form" class="input">
+          <input id="scenario" autocomplete="off" placeholder="Describe a situation…" maxlength="300" />
+          <label class="icon" title="Use your own image">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
+            <input id="file" type="file" accept="image/*" hidden />
+          </label>
+          <button type="button" id="mic" class="icon" title="Speak">
+            <svg viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg>
+          </button>
+          <button type="submit" id="go" class="send" aria-label="Generate">
+            <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
